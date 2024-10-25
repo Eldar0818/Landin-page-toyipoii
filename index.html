@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./assets/favicon.png" type="image/x-icon">
+    <title>The Power of Play</title>
+</head>
+<body>
+    <main class="container">
+        <header class="headings">
+            <div class="heading-small">
+                <h4>"Imagination is more important than knowledge." - Albert Einstein</h4>
+                <img src="./assets/pointOn.png" alt="pointOn">
+            </div>
+            <div class="heading-big">
+                <i class="fa-solid fa-hand-point-right"></i>
+                <h1>Toys are the tools of childhood.</h1>
+                <i class="fa-solid fa-hand-point-left"></i>
+            </div>
+        </header>
+
+        <section class="gallery">
+            <div class="gallery-top">
+                <div class="gallery-img">
+                    <img src="/assets/gallery1.png" alt="gallery-img">
+                </div>
+            </div>
+
+            <div class="gallery-bottom">
+                <div class="gallery-img lower">
+                    <img src="/assets/gallery2.png" alt="gallery-img">
+                </div>
+                <div class="gallery-img">
+                    <img src="/assets/gallery3.png" alt="gallery-img">
+                </div>
+            </div>
+        </section>
+
+        <section class="intro">
+            <article class="intro-text">
+                <p>
+                    Playtime is essential for children's development as it offers a unique opportunity to put into practice what they've learned in a lively and enjoyable environment. Through various forms of play, children can experiment with new concepts, test their understanding, and gain hands-on experience. This process transforms theoretical knowledge into practical skills, making learning more tangible and memorable. Playtime encourages creativity, problem-solving, and critical thinking, as children explore and interact with their surroundings. Additionally, it fosters a love for learning by showing that education can be both enjoyable and rewarding. As a result, lessons learned during playtime are more likely to stick, deepening children's comprehension and helping them retain information more effectively.
+                </p>
+                <i class="fa-solid fa-explosion"></i>
+            </article>
+        </section>
+
+        <section class="desc">
+            <div class="desc-left" onclick="openModalWithContent('first')">
+                <img src="./assets/banner-poster.png" alt="dec-img" class="deco-img-large">
+                <article class="desc-text-box">Enhance cognitive skills, critical thinking, and problem-solving.</article>
+            </div>
+            <div class="desc-right">
+                <div class="desc-right-img" onclick="openModalWithContent('second')">
+                    <img src="./assets/deco.jpg" alt="deco-img" class="deco-img-small">
+                    <article class="desc-text-box">Toys foster emotional intelligence and resilience through imaginative play.</article>
+                </div>
+                <div class="desc-right-img" onclick="openModalWithContent('third')">
+                    <img src="./assets/toy-banner.png" alt="deco-img" class="deco-img-small">
+                    <article class="desc-text-box">"Toys boost social skills, empathy, and teamwork through group play.</article>
+                </div>
+            </div>
+        </section>
+
+        <div class="modal-shadow" id="modal-shadow">
+            <div class="modal">
+                <div class="modal-head">
+                    <i class="fa-solid fa-circle-xmark" id="close-modal-btn"></i>
+                </div>
+                <div class="modal-content" id="modal-content"></div>
+            </div>
+        </div>
+
+        <section class="prmt-pd">
+            <article class="pd-contents">
+                <h3>Don't you want to see good stuff?</h3>
+                <h1>COME ON!</h1>
+                <p>
+                    There are some things in life that we can ignore, but there are some good things that we will lose if we miss them.
+                </p>
+                <a href="/index.html">Explore</a>
+            </article>
+        </section>
+    </main>
+
+    <footer class="foot">
+        <div class="foot-top">
+            <a href="/index.html" class="logo">
+                <span>TOII</span>
+                <img src="./assets/favicon.png" alt="logo">
+                <span>POII</span>
+            </a>
+        </div>
+        <div class="foot-bottom">
+            <p> <small>&copy; 2024 Developed by EDR dev group</small></p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
